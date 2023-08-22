@@ -1,0 +1,80 @@
+body {
+    background-color: #a7ffb5;
+    height: 100%;
+}
+
+/* topo */
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-bottom: 20vh;
+}
+
+.gm, .img {
+    margin-right: 10px;
+}
+
+/* //////// */
+
+/* meio */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+
+.ifalimg {
+    max-width: 100%;
+    height: 130px;
+   display: block;
+}
+
+
+
+ .pesquisa {
+    max-width: 100%;
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.gpesquisa {
+    margin-top: 30px;
+    background-color: #299626;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Baixo */
+
+.bottom .left {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom .right {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sobre, .publi, .negocio {
+    margin-left: 10px;
+}
+
+.privac, .term, .config {
+    margin-right: 10px;
+}
+
+/* /////// */
